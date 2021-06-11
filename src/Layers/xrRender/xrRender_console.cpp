@@ -722,7 +722,7 @@ void xrRender_initconsole()
 
     Fvector tw_min, tw_max;
 
-    CMD4(CCC_Float, "r__geometry_lod", &ps_r__LOD, 0.1f, 2.f);
+    CMD4(CCC_Float, "r__geometry_lod", &ps_r__LOD, 0.1f, 20.f);
     //CMD4(CCC_Float, "r__geometry_lod_pow", &ps_r__LOD_Power, 0, 2);
 
     CMD4(CCC_Float, "r__detail_density", &ps_current_detail_density/*&ps_r__Detail_density*/, 0.1f, 0.99f);
